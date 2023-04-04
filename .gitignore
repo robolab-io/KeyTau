@@ -1,0 +1,8 @@
+/src/
+/src-tauri/
+/ui-lib/
+
+**/node_modules/*
+node_modules
+dist
+

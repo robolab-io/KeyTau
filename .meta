@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "src": "https://github.com/robolab-io/KeyTau-src.git",
+    "src-tauri": "https://github.com/robolab-io/FOSITE.git",
+    "ui-lib": "https://github.com/robolab-io/KeyTau-UI.git"
+  }
+}

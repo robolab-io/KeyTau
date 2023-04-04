@@ -1,0 +1,24 @@
+{
+  "name": "KeyTau",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite src",
+    "dev": "vite src",
+    "build": "vite build src",
+    "serve": "vite preview src",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "^1.4.7"
+  },
+  "devDependencies": {
+    "meta-npm": "^1.2.7",
+    "@types/node": "^18.7.10",
+    "typescript": "^4.7.4",
+    "vite": "^4.0.0",
+    "vite-plugin-solid": "^2.3.0",
+    "@tauri-apps/cli": "^1.2.2"
+  }
+}
