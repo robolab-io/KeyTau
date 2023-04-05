@@ -18,7 +18,7 @@ meta git clone https://github.com/robolab-io/KeyTau.git
 1. download rust: https://www.rust-lang.org/
 2. Check OS Specific Tauri-Reqs: https://tauri.app/v1/guides/getting-started/prerequisites 
     - Windows requires [VS C++ BuildTools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-3. $ `npm run tauri dev` (first run takes a bit as to init rust deps)
+3. $ `npm run tauri dev` or `npm run tauri build` (first run takes a bit as to init rust deps)
 
 
 ### DX
