@@ -24,3 +24,7 @@ meta git clone https://github.com/robolab-io/KeyTau.git
 ### DX
 1. **vscode git-graph extension:** `ctrl+shift+p` and run `>Git Graph: Add Git Repository...` for each sub-repo. This will let you easily toggle between them.
 2. **VSCode Source Control Tab:** click on the three dots for options => Views => Source Control Repositories. This will let you select the sub-repo whose diffs you wish to see.
+3. **Release Shortcut:** the release is kinda buried so a shortcut/alias helps for quick access. I've added mine to a top level `build` directory, which is gitingore'd. example paths:
+   - `...\KeyTau\src-tauri\target\release\KeyTau.exe`
+   - `...\KeyTau\src-tauri\target\release\bundle\msi`
+   - Might be possible to change the tauri release output dir, but that can wait.
