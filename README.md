@@ -1,11 +1,11 @@
 # KeyTau
-FOS "Integrated Typing Environment" built in Tauri, Leptos, and a pinch of Solid
+FOS "Integrated Typing Environment" built with Tauri, Leptos, and a pinch of Solid
 
 <br/>
 
 ## Getting Started
 
-> This is a [meta-repo](https://github.com/mateodelnorte/meta), you can treat it as a monorepo as long as you prefix your git commands with `meta`. if you are just making changes to 1 sub-repo, you can just use plain git.
+> This is a [meta-repo](https://github.com/mateodelnorte/meta), you can treat it as a monorepo as long as you prefix your git commands with `meta`. If you are just making changes to 1 sub-repo, you can just use plain git.
 
 ### Install
 ```
@@ -15,7 +15,7 @@ meta git clone https://github.com/robolab-io/KeyTau.git
 
 
 ### Run
-1. download rust: https://www.rust-lang.org/
+1. Download rust: https://www.rust-lang.org/
 2. Check OS Specific Tauri-Reqs: https://tauri.app/v1/guides/getting-started/prerequisites 
     - Windows requires [VS C++ BuildTools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 3. $ `npm run tauri dev` or `npm run tauri build` (first run takes a bit as to init rust deps)
@@ -45,9 +45,9 @@ Once you are ready to commit, heres the rule of thumb:
 
 ### Commit Formatting
 
-https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
-
-https://www.conventionalcommits.org/en/v1.0.0/
+Inspired by the following:
+  - https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+  - https://www.conventionalcommits.org/en/v1.0.0/
 
 <details>
 <summary>Types:</summary>
@@ -57,34 +57,34 @@ Feat
   - Functional Update
 
 Style
-  - non-functional style update
+  - Non-functional style update
 
 Fix
   - Functional fix
 
 Chore
-  - cleaning, formatting, notes, other non-functional updates and maintenance
+  - Cleaning, formatting, notes, other non-functional updates and maintenance
 
 Docs
-  - updating documentation
+  - Updating documentation
 
 Ref
-  - refactor, rewrites, code splitting, restructuring, etc.
+  - Refactor, rewrites, code splitting, restructuring, etc.
 
 Trial
-  - an experiment that may or may not work
+  - An experiment that may or may not work
 
 Checkpoint
-  - potentially non-functional commit, mid-feature
+  - Potentially non-functional commit, mid-feature
 
 Init
-  - instantiating a dep or dev-ops feature
+  - Instantiating a dep or dev-ops feature
 
 Util
   - Developer Utility/tooling/build-pipeline feature/update
 
 Test
-  - code testing updates
+  - Code testing updates
 ```
 
 </details><br/>
@@ -110,7 +110,7 @@ Feat(meta): implement & connect some tauri api to FE
 Docs(sr): fix spelling on single repo's docs
 
 Fix(meta): only backend code changed but has significant functional on FE
-^--allow-empty
+^commit --allow-empty example
 ```
 
 </details><br/>
